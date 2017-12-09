@@ -3,3 +3,10 @@
       relink: true
 
 - clean: ['~']
+
+- link:
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+
+- shell:
+  - [vim +PluginInstall +qall, Installing vim plugins]
