@@ -65,4 +65,4 @@ let g:lightline={
   \ }
 " END lightline
 
-silent! colorscheme PaperColor
+silent! colorscheme monokai_cxx
