@@ -1,11 +1,11 @@
-" appearance defaults ----------------------------------------------------------
+" appearance defaults
 syntax on
 set number
 set showcmd
 set nohlsearch
 set background=dark
 
-" indentation defaults ---------------------------------------------------------
+" indentation defaults
 set autoindent 
 set expandtab 
 set softtabstop=4
@@ -14,7 +14,7 @@ set shiftwidth=4
 
 autocmd BufNewFile,BufRead *.yaml,*.ylm set softtabstop=2
 
-" vundle ----------------------------------------------------------------- begin
+" BEGIN Vundle
 " make vundle work properly
 set nocompatible
 filetype off
@@ -27,14 +27,14 @@ Plugin 'NLKNguyen/papercolor-theme'
 call vundle#end()
 
 filetype plugin indent on
-" vundle ------------------------------------------------------------------- end
+" END Vundle
 
-" lightline--------------------------------------------------------------- begin
+" BEGIN lightline
 " make lightline visible
 set laststatus=2
 let g:lightline = {
   \ 'colorscheme': 'wombat',
   \ }
-" lightline----------------------------------------------------------------- end
+" END lightline
 
 silent! colorscheme PaperColor
