@@ -32,6 +32,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
 Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'editorconfig/editorconfig-vim'
 Plugin 'kien/ctrlp.vim'
 call vundle#end()
 
