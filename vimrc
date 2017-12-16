@@ -6,6 +6,7 @@ set nohlsearch
 set background=dark
 
 " indentation defaults
+set backspace=indent,eol,start
 set smartindent
 set expandtab 
 set softtabstop=4
