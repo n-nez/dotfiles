@@ -39,6 +39,8 @@ filetype plugin indent on
 
 " BEGIN YouCompleteMe
 let g:ycm_auto_trigger = 0
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf = 0
 " END YouCompleteMe
 
 " BEGIN lightline
