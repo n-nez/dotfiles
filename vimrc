@@ -59,6 +59,7 @@ let g:ctrlp_custom_ignore = {
 " BEGIN lightline
 " make lightline visible
 set laststatus=2
+set noshowmode " do not show mode in native statusbar
 let g:lightline = {
   \ 'colorscheme': 'wombat',
   \ }
