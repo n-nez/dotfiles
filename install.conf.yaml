@@ -12,4 +12,5 @@
 
 - shell:
   - [vim +PluginInstall +qall, Installing vim plugins]
+  - [cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer]
   - [~/.tmux/plugins/tpm/bin/install_plugins, Installing tmux plugins]

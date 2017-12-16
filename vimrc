@@ -29,12 +29,17 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 call vundle#end()
 
 filetype plugin indent on
 " END Vundle
+
+" BEGIN YouCompleteMe
+let g:ycm_auto_trigger = 0
+" END YouCompleteMe
 
 " BEGIN lightline
 " make lightline visible
