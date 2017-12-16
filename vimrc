@@ -41,16 +41,16 @@ filetype plugin indent on
 " END Vundle
 
 " BEGIN YouCompleteMe
-let g:ycm_auto_trigger = 0
-let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
-let g:ycm_confirm_extra_conf = 0
+let g:ycm_auto_trigger=0
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf=0
 " END YouCompleteMe
 
 " BEGIN CtrlP
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip " MacOSX/Linux
 
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
-let g:ctrlp_custom_ignore = {
+let g:ctrlp_custom_ignore='\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore={
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
   \ 'file': '\v\.(exe|so|dll)$'
   \ }
@@ -60,7 +60,7 @@ let g:ctrlp_custom_ignore = {
 " make lightline visible
 set laststatus=2
 set noshowmode " do not show mode in native statusbar
-let g:lightline = {
+let g:lightline={
   \ 'colorscheme': 'wombat',
   \ }
 " END lightline
