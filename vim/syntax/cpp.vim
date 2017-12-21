@@ -1,2 +1,2 @@
 source $VIMRUNTIME/syntax/cpp.vim
-syn match cppRandCharacters /[()+,\-;=:%\[\]*~&.\^<>!{}]/
+syn match cppRandCharacters /[()+,\-;=:%\[\]*~&.\^<>!{}|]/
