@@ -35,6 +35,7 @@ Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'aserebryakov/vim-todo-lists'
 Plugin 'kien/ctrlp.vim'
+Plugin 'cespare/vim-toml'
 call vundle#end()
 
 filetype plugin indent on
