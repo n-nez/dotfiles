@@ -33,9 +33,10 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'aserebryakov/vim-todo-lists'
 Plugin 'kien/ctrlp.vim'
 Plugin 'cespare/vim-toml'
+Plugin 'tpope/vim-speeddating'
+Plugin 'jceb/vim-orgmode'
 call vundle#end()
 
 filetype plugin indent on
