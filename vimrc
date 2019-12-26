@@ -13,8 +13,8 @@ set softtabstop=4
 set tabstop=4
 set shiftwidth=4
 
-au FileType c,cpp set noexpandtab
-au FileType cmake set noexpandtab
+au FileType c,cpp set sw=2 softtabstop=2
+au FileType cmake set sw=2 softtabstop=2
 au FileType stp set sw=2 softtabstop=2
 au FileType yaml,yml set sw=2 softtabstop=2
 au FileType xml set sw=2 softtabstop=2
