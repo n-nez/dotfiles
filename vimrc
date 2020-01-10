@@ -18,6 +18,8 @@ au FileType cmake set sw=2 softtabstop=2
 au FileType stp set sw=2 softtabstop=2
 au FileType yaml,yml set sw=2 softtabstop=2
 au FileType xml set sw=2 softtabstop=2
+au FileType verilog set sw=2 softtabstop=2
+au FileType systemverilog set sw=2 softtabstop=2
 au BufRead,BufNewFile *.gsl  setfiletype gsl
 au FileType gsl set sw=2 softtabstop=2
 au BufRead,BufNewFile *.sbt setfiletype scala
