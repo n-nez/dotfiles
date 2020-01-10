@@ -34,16 +34,10 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'derekwyatt/vim-scala'
 Plugin 'neoclide/coc.nvim', {'rev': 'release'}
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
-Plugin 'NLKNguyen/papercolor-theme'
-Plugin 'editorconfig/editorconfig-vim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'cespare/vim-toml'
-Plugin 'tpope/vim-speeddating'
-Plugin 'jceb/vim-orgmode'
 call vundle#end()
 
 filetype plugin indent on
