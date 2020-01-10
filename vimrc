@@ -38,6 +38,7 @@ Plugin 'neoclide/coc.nvim', {'rev': 'release'}
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
 Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 
 filetype plugin indent on
@@ -65,6 +66,13 @@ set laststatus=2
 set noshowmode " do not show mode in native statusbar
 let g:lightline={
   \ 'colorscheme': 'wombat',
+  \ 'active': {
+  \   'left': [ [ 'mode', 'paste' ],
+  \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+  \ },
+  \ 'component_function': {
+  \   'gitbranch': 'fugitive#head'
+  \ },
   \ }
 " END lightline
 
