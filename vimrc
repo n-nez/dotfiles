@@ -39,10 +39,15 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'mileszs/ack.vim'
 call vundle#end()
 
 filetype plugin indent on
 " END Vundle
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 " BEGIN YouCompleteMe
 let g:ycm_auto_trigger=0
